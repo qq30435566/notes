@@ -1,0 +1,9 @@
+怎样在VirtualBox中创建共享文件夹
+https://jingyan.baidu.com/article/656db918cca831e381249cce.html
+
+ubuntu 下共享文件夹无法挂载
+mount -t vboxsf vir_share_dir /vir_share_dir  执行命令后出现下述错误
+wrong fs type, bad option, bad superblock on /vir_share_dir, missing codepage or helper program, or other error.
+
+解决链接
+https://blog.csdn.net/l349074299/article/details/77869317
