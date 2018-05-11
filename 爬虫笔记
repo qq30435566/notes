@@ -26,3 +26,10 @@ def demo5():
 
         # request.urlretrieve(url地址,  本地地址)
         request.urlretrieve(link.attrs['src'], './imgs/'+'{}.jpg'.format(time()))
+        
+
+scrapy 安装详细过程 https://blog.csdn.net/qy20115549/article/details/52528896
+
+mysql 安装缺少msvcr120.dll文件 博客解决连接:https://blog.csdn.net/gaoqiwang/article/details/77455236
+
+pymsql 添加数据到mysql, 报错:Incorrect value,  原因插入数据为中文, 而数据库字符集设置的不是utf8
