@@ -1,0 +1,6 @@
+soup = BeautifulSoup(page_info, 'html.parse') 
+'html.parse'少写了个r, 正确应该是  soup = BeautifulSoup(page_info, 'html.parse') 
+
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: html.parse. Do you need to install a parser library?
+
+BeautifulSoup pip安装库要安装BeautifulSoup4
