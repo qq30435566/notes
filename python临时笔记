@@ -1,2 +1,19 @@
 __file__
 这个变量的值等于当前文件所在的路径
+
+pycharm 错误记录:
+ from twisted.scripts import trial
+ModuleNotFoundError: No module named 'twisted'
+
+修改 *.iml文件
+  将:
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="Twisted Trial" />
+    <option name="PROJECT_TEST_RUNNER" value="Twisted Trial" />
+  </component>
+  修改为:
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+  
+  
