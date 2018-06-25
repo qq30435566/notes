@@ -4,7 +4,7 @@ from os import path
 
 # <editor-fold desc="日志设置">
 logger = logging.getLogger()
-logger.setLevel(logging.INFO)  # 日志级别
+logger.setLevel(logging.INFO)  # 日志级别,  没有设置不会输出
 
 logger.addHandler(logging.StreamHandler())  # 输出到控制台
 
