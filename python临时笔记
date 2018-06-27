@@ -19,3 +19,5 @@ ModuleNotFoundError: No module named 'twisted'
   
 2018-5-22 21:17:53
 python学习 http://docs.python-guide.org/en/latest/
+
+把字符串变成变量名:  locals()['age'] = 18   print(age)  输出18
