@@ -25,3 +25,6 @@ python学习 http://docs.python-guide.org/en/latest/
 python:
       if x in lst_1 or x in lst_2: print(x)
 ==>   if x in lst_1 + lst_2: print(x)
+
+list内置sort方法支持定制排序
+list.sort(key=lambda x: x.name)
