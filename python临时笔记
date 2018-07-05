@@ -21,3 +21,7 @@ ModuleNotFoundError: No module named 'twisted'
 python学习 http://docs.python-guide.org/en/latest/
 
 把字符串变成变量名:  locals()['age'] = 18   print(age)  输出18
+
+python:
+      if x in lst_1 or x in lst_2: print(x)
+==>   if x in lst_1 + lst_2: print(x)
