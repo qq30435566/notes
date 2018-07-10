@@ -30,3 +30,7 @@ list内置sort方法支持定制排序
 list.sort(key=lambda x: x.name)
 
 组合公式推导, 链接 https://wenku.baidu.com/view/9897a2348bd63186bdebbc41.html
+
+f = open(path)
+json.dumps(dic, f, ensure_ascii=False)   # 有中文存入文件,  加参数ensure_ascii=False, 关闭映射ascii
+f.close()
