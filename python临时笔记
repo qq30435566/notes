@@ -36,3 +36,5 @@ json.dumps(dic, f, ensure_ascii=False)   # 有中文存入文件,  加参数ensu
 f.close()
 
 json.dump(src, f)  存文件  ret = json.dumps(src) 返回结果
+
+[列表深浅复制](https://www.cnblogs.com/blaomao/p/7239203.html)
