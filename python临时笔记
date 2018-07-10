@@ -34,3 +34,5 @@ list.sort(key=lambda x: x.name)
 f = open(path)
 json.dumps(dic, f, ensure_ascii=False)   # 有中文存入文件,  加参数ensure_ascii=False, 关闭映射ascii
 f.close()
+
+json.dump(src, f)  存文件  ret = json.dumps(src) 返回结果
