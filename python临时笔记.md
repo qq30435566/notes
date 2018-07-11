@@ -38,3 +38,8 @@ f.close()
 json.dump(src, f)  存文件  ret = json.dumps(src) 返回结果
 
 [列表深浅复制](https://www.cnblogs.com/blaomao/p/7239203.html)
+
+pycharm会自动把当前项目路径添加到sys.path,
+所以部署的代码会有个定式写法:
+import os, sys
+sys.path.append(os.path.dirname(os.getcwd()))
