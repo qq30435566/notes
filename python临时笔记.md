@@ -43,3 +43,6 @@ pycharm会自动把当前项目路径添加到sys.path,
 所以部署的代码会有个定式写法:
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+
+2018-7-12 20:08:01
+今天断线重连出bug调很久, 玩家连接时我发了断线重连协议, 玩家一重连就发送进入房间协议
